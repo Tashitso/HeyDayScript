@@ -8,13 +8,13 @@
  ----------------
  ```Shell
 #!/bin/sh
-   ask the user to enter their name 
+   #ask the user to enter their name 
    echo "Enter your name"
    
-   assign the name to a variable 
+   #assign the name to a variable 
    read name 
    
-   print Hey the name! 
+   #print Hey the name! 
    echo "Hey $name!"
 ```
   
