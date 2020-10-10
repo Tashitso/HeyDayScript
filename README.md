@@ -8,7 +8,7 @@
  ----------------
  ```Shell
 #!/bin/sh
-   ask the user to enter thier name 
+   ask the user to enter their name 
    
    assign the name to a variable 
    
