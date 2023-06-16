@@ -6,8 +6,8 @@
  
  # HEY DAY script 
  ----------------
- ```perl
-#!/usr/bin/perl -w 
+ ```Shell
+#!/bin/sh
    #ask the user to enter their name 
    echo "Enter your name"
    
