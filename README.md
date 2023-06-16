@@ -29,7 +29,7 @@
    $name = <>;
    # <>returns a newline character, use chomp function to remove it
    chomp($name);
-   # print Hey and then the value of variable name
+   # print Hey and then the value of name variable
    print "Hey $name!\n";
 ```
  
