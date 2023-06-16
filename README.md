@@ -17,9 +17,9 @@
    #print Hey the name! 
    echo "Hey $name!"
 ```
-# HEY DAY perl script
----------------------
-'''perl
+#HEY DAY perl script
+--------------------
+```perl
    #!/usr/bin/perl -w
 
    # ask the user to enter their name
@@ -31,7 +31,7 @@
    chomp($name);
    #print Hey and then the value of variable name
    print "Hey $name!\n";
-   '''
+```
  
    
    
