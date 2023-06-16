@@ -20,18 +20,18 @@
 # HEY DAY perl script
 ---------------------
 '''perl
-#!/usr/bin/perl -w
+   #!/usr/bin/perl -w
 
-# ask the user to enter their name
-print "Enter your name\n";
+   # ask the user to enter their name
+   print "Enter your name\n";
 
-#<> operator takes input and variable name equals input value
-$name = <>;
-#<> operator returns a newline character, use chomp function to remove the newline character at the end
-chomp($name);
-#print Hey and then the value of variable name
-print "Hey $name!\n";
-'''
+   #<> operator takes input and variable name equals input value
+   $name = <>;
+   #<> operator returns a newline character, use chomp function to remove the newline character at the end
+   chomp($name);
+   #print Hey and then the value of variable name
+   print "Hey $name!\n";
+   '''
  
    
    
