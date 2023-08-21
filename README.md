@@ -19,19 +19,18 @@
 --------------------
 ```perl
 #!/usr/bin/perl -w
-use feature 'say';
 
    # ask the user to enter their name
-   say "Enter your name\n";
+   print "Enter your name\n";
 
-   # <> operator takes input and variable name equals input value
-   $name = <STDIN>;
-   
-   # <>returns a newline character, use chomp function to remove it
+   # <> operator takes input and input value is assinged to variable name 
+   $name = <>;
+
+   # <> returns a newline character, use chomp function to remove it
    chomp($name);
-   
-   # print Hey and then the value of name variable
-   say "Hey $name!\n";
+
+   # print Hey and then followed by the value of name variable
+   print "Hey $name!\n";
 ```
  
    
